@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reyes.tallerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.reyes.tallerapp.Principal"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.reyes.tallerapp.Formulario" />
+        <activity android:name="com.example.reyes.tallerapp.Listado" />
+        <activity android:name="com.example.reyes.tallerapp.ListaReportes" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte1" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte2" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte3" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte4" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte5" />
+        <activity android:name="com.example.reyes.tallerapp.Reporte6"></activity>
+    </application>
+
+</manifest>
